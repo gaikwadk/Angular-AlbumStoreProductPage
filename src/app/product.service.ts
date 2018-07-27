@@ -4,9 +4,10 @@ import {Http, Response} from '@angular/http';
 import 'rxjs/add/operator/map'; 
 
 import {Album} from './album';
-import { Observable } from '../../node_modules/rxjs/Observable';
+//import { Observable } from '../../node_modules/rxjs/Observable';
 //import { timingSafeEqual } from 'crypto';
 
+import {Observable} from 'rxjs/Observable';
 
 @Injectable()
 export class ProductService {
